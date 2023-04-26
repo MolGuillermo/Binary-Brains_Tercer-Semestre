@@ -1,0 +1,12 @@
+from ManejoDeArchivos import ManejoDeArchivos
+
+# para abrir archivos usamos el OPEN
+# para cerrar archivos usamos el CLOSE
+
+with open('prueba.txt', 'r', encoding='UTF-8') as archivo:
+     print(archivo.read())
+
+
+# Manejo de contexto 'with' o Context manager : SINTAXIS SIMPLIFICADA 
+# Por ese medio el archivo se abre y cierra automaticamente, sin necesidad de mas lineas de codigo
+# usa distintos metodos => __enter__ o __eixit__
