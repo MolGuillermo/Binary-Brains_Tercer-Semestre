@@ -1,0 +1,32 @@
+/Funciones de tipo self y invoking
+(function(a , b){
+    console.log("Ejecutamos la funcion: "+ (a+b));
+})(9,6);
+
+console.log(typeof miFuncion);
+function miFuncionDos(a ,b){
+    console.log(arguments.length);
+}
+miFuncionDos(5, 7,3,6);
+
+//to string
+var miFuncionTexto = miFuncionDos.toString();
+console.log(miFuncionTexto);
+
+
+//funciones flecha 
+const sumarFuncionFlecha = (a ,b) => a + b ;
+resultado = sumarFuncionFlecha(3, 7);//Asignamos el valor a una variable
+console.log(resultado);
+
+
+//funcion de tipo expresion
+let sumar = function(a = 4, b = 8 ){
+    console.log(arguments[0]);//muestra el parametro de : a
+    console.log(arguments[1]);//muestra el parametro de b
+   
+    return a + b + arguments[2];
+}
+
+resultado = sumar(3 , 2, 9);
+console.log(resultado);
