@@ -18,8 +18,8 @@
 | :pencil:  semana 2   | Liscio Natalia   |
 | :pencil:  semana 3	 | Riddick Carolina |
 | :pencil:  semana 4	 | Sandrea Mauricio | 
-| :pencil:  semana 5	 | Serezo	Luciana   |
-| :pencil:  semana 6	 | Molina Guillermo |
+| :pencil:  semana 5	 | Molina Guillermo |
+| :pencil:  semana 6	 | Serezo	Luciana   |
 
 
 ## `Integrantes` :point_down:
