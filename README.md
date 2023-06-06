@@ -21,8 +21,12 @@
 | :pencil:  semana 5	 | Sandrea Mauricio |
 | :pencil:  semana 6	 | Serezo	Luciana   |
 | :pencil:  semana 7	 | Tamara Piccinni  | 
-| :pencil:  semana 8	 | Liscio Natalia   |
-| :pencil:  semana 9	 | Riddick Carolina |  
+| :pencil:  semana 8	 | Sandrea Mauricio |
+| :pencil:  semana 9	 | Liscio Natalia   |  
+| :pencil:  semana 10	 | Tamara Piccinni  | 
+| :pencil:  semana 11	 | Riddick Carolina | 
+| :pencil:  semana 12	 | Molina Guillermo | 
+| :pencil:  semana 13	 | Serezo	Luciana   | 
 
 
 ## `Integrantes` :point_down:
