@@ -1,0 +1,51 @@
+let x =10;// variable de tipo primitiva
+console.log(x.length);
+console.log("Tipos primitivos");
+//objeto
+let persona = {
+    nombre: "carlos",
+    apellido: "Gil",
+    email: "cgil@gmail.com",
+    edad: 28,
+    idioma: 'es',
+    get lang(){
+        return this.idioma.toUpperCase();// convierte las minusculas a mayusculas
+    },
+    set lang(lang){
+        this.idioma =  lang.toUpperCase();
+    },
+    
+    nommbreCompleto: function(){ //metodo o funcion en javascript
+        return this.nombre+" "+this.apellido+" "+this.email;
+
+    },
+    get nombreEdad(){
+        return this.nombre+' edad: '+this.edad
+    }
+    
+}
+console.log(persona.nombre);
+console.log(persona.apellido);
+console.log(persona.edad);
+console.log(persona.email);
+console.log(persona);
+console.log(persona.nommbreCompleto());
+console.log("Ejecutamos con un objeto");
+
+let persona2 = new Object();//Debe crear un nuevo objeto en memoria
+persona2.nombre = "Juan";
+persona2.direccion = "Salada";
+persona2.telefono = "123456789";
+console.log(persona2.telefono);
+console.log("creamos un nuevo objeto");
+console.log(persona["apellido"]); //accedemos como si fuera un arrglo
+
+//for in y accedemos al objeto como si fuera un arreglo
+for (propiedad in persona){
+    console.log(propiedad);
+    console.log(persona[propiedad]);
+}
+console.log("cambiamos y eliminamos un error");
+persona.apellida = "Betancud";//cambiamos dinamicamente el valor de un objeto
+delete persona.apellida;   // eliminamos el error.
+console.log(persona);
