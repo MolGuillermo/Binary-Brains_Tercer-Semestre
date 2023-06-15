@@ -1,6 +1,6 @@
 <h1 align= "center" >Binary-Brains_Tercer-Semestre
   
-[![Binari-Brains-Logo1.png](https://i.postimg.cc/VspyPssH/Binari-Brains-Logo1.png)](https://postimg.cc/Sj61WhMW)
+[![Binari-Brains-Logo1.png](https://i.postimg.cc/9MSmTfNR/Binari-Brains-Logo1.png)](https://postimg.cc/TLVvvTxf)
 
 ## `Lenguages:` 
 [![Javagif1.gif](https://i.postimg.cc/cJjHcJHT/Javagif1.gif)](https://postimg.cc/2qQrkrnB)
