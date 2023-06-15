@@ -9,7 +9,6 @@
 
 
 
-
 ## 📆 `Organización Semanal`
 
 | SEMANA        | SCRUM MASTER  |
@@ -27,7 +26,6 @@
 | :pencil:  semana 11	 | Riddick Carolina | 
 | :pencil:  semana 12	 | Molina Guillermo | 
  
-
 
 ## `Integrantes` :point_down:
 #### :brain:  Liscio, Natalia. 
