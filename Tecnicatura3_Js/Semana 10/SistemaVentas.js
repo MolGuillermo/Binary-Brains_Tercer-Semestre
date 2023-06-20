@@ -72,12 +72,14 @@ class Orden{
     }//Fin metodo mostrarOrden        
 }//Fin de la clase Orden
 
+// Video 10.3
 
 let producto1 = new Producto('Pantalon', 200);
 let producto2 = new Producto('Camisa', 150);
 let producto3 = new Producto('Cinturón', 50);
 let orden1 = new Orden;
 let orden2 = new Orden();
+
 orden1.agregarProducto(producto1);
 orden1.agregarProducto(producto2);
 orden1.agregarProducto(producto3);

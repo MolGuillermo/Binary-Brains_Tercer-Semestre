@@ -2,6 +2,7 @@ import sys
 import psycopg2 as bd
 from logger_base import log
 
+# POOL DE CONEXIONES PYTHON Y POSTGRESQL
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
