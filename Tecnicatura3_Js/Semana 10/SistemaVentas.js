@@ -33,9 +33,9 @@ constructor(nombre, precio){
 
 class Orden{
     static contadorOrdenes = 0;
-    
+
     //Simula una constante
-    static getMAX_PRODUCTOS(){ return 5;}
+    static getMAX_PRODUCTOS() { return 5 ; }
 
     constructor(){
         this._idOrden = ++Orden.contadorOrdenes;
