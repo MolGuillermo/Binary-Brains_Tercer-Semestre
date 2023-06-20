@@ -33,9 +33,9 @@ constructor(nombre, precio){
 
 class Orden{
     static contadorOrdenes = 0;
-    static getMAX_PRODUCTOS(){ //Simula una constante
-        return 5;
-    }
+    
+    //Simula una constante
+    static getMAX_PRODUCTOS(){ return 5;}
 
     constructor(){
         this._idOrden = ++Orden.contadorOrdenes;
@@ -43,14 +43,12 @@ class Orden{
         this._contadorProductosAgregados = 0;
     }
 
-    get _idOrden(){
-        return this._idOrden;
-    }
+    get _idOrden(){return this._idOrden;}
 
     agregarProducto(producto){
         if(this._productos.length < Orden.getMAX_PRODUCTOS()){
-            this._productos.push(producto); //Tenemos dos tipos de sintaxis: 1
-            //this._productos[this._contadorProductosAgregados++] = producto; //segunda sintaxis
+            this._productos.push(producto); //Tenemos dos tipos de sintaxis: -> primera sintaxis
+            //this._productos[this._contadorProductosAgregados++] = producto; -> segunda sintaxis
         }
         else{
             console.log('No se pueden agregar mas productos')
