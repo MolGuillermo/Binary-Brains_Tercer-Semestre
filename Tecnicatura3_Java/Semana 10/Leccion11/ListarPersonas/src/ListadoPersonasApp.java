@@ -65,3 +65,8 @@ public class ListadoPersonasApp {
     }//Fin metodo ejecutarOperacion
 
 }//Fin de la clase ListadoPersonaApp
+
+
+
+
+//commit naty
