@@ -7,7 +7,7 @@ import sys
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
-    _PASWORD = '1004'
+    _PASWORD = 'admin'
     _DB_PORT = '5432'
     _HOST = '127.0.0.1'
     _MIN_CON = 1
@@ -36,6 +36,7 @@ class Conexion:
                                                       port=cls._DB_PORT,
                                                       database=cls._DATABASE)
                 log.debug(f'creacion del pool exitosa: {cls._pool}')
+                return cls._pool
             except Exception as e:
                 log.error(f'Ocurrio un error al obtener el pool: {e}')
                 sys.exit()
@@ -44,4 +45,8 @@ class Conexion:
 
 
 if __name__ == '__main__':
-    pass
+    conxion1 = Conexion.obtenerConexion()
+    conxion2 = Conexion.obtenerConexion()
+    conxion3 = Conexion.obtenerConexion()
+    conxion4 = Conexion.obtenerConexion()
+    conxion5 = Conexion.obtenerConexion()
