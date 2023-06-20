@@ -2,7 +2,6 @@ import sys
 import psycopg2 as bd
 from logger_base import log
 
-
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
@@ -12,6 +11,7 @@ class Conexion:
     _conexion = None
     _cursor = None
 
+# Metodo de Clase
     @classmethod
     def obtenerConexion(cls):
         if cls._conexion is None:
@@ -29,6 +29,7 @@ class Conexion:
         else:
             return cls._conexion
 
+# Metodo de Clase
     @classmethod
     def obtenerCursor(cls):
         if cls._cursor is None:
@@ -42,6 +43,7 @@ class Conexion:
         else:
             return cls._cursor
 
+# Programa Principal
 if __name__ == '__main__':
     Conexion.obtenerConexion()
     Conexion.obtenerCursor()
