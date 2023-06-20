@@ -38,3 +38,5 @@ de objetos Productos y Orden
 Responsabilidades
 -- Ejecutar la prueba de
     la aplicacion de Ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>312</y><w>24</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>216</y><w>56</w><h>24</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element></diagram>
+
+    //push
